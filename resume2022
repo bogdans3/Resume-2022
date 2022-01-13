@@ -1,0 +1,183 @@
+body {
+  background-color: grey;
+  font-family: Syncopate, Manrope;
+}
+.text-align-right {
+  text-align:right;
+  font-size: 50px;
+}
+h1{
+  color:#FFFFFF;
+  text-align: right; 
+  font-family: Syncopate, Manrope;
+}
+h2 {
+  color: #FFFFFF; 
+  text-align: right;
+  font-family: Syncopate, Manrope;
+}
+h3 {
+  color: #FFFFFF; 
+  font-size: 30px;
+  font-family: Syncopate, Manrope;
+}
+p {
+  color: #FFFFFF; 
+  font-family: Syncopate, Manrope;
+}
+.inline-box {
+  display: flex;
+  justify-content: center;
+   
+}
+
+.box1 {
+  background-color: #97ABBB;
+  padding:100px;
+  border-radius: 5%;
+  height: auto;
+  width:auto;
+  margin: auto;
+  color: #FFFFFF;
+  Line-height: 200%;
+}
+.box2 {
+  background-color: #97ABBB;
+  padding: 100px;
+  border-radius: 5%;
+  margin:auto;
+  height: auto;
+  width:auto;
+  color: #FFFFFF;
+}
+.box3 {
+  background-color: #97ABBB;
+  padding: 100px;
+  border-radius: 5%;
+  height: auto;
+  width:auto;
+  color: #FFFFFF;
+}
+.header-box {
+  background-color: #545F68;
+  padding:200px;
+  border-radius: 5%;
+  height: auto;
+  width:auto;
+  margin: auto;
+  color: #FFFFFF;
+  overflow-wrap: break-word;
+ 
+}
+.img {
+  border-radius: 50%; 
+}
+@media (min-width: 992px){
+.nav-bar{
+  background-color: #97ABBB;
+  padding: 10px;
+  border-radius: 10%;
+  link-color: white;
+  color: white;
+  position:absolute, center;
+  text-align: center;
+  margin-left:10em;
+  margin-right:10em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Syncopate:wght@700&display=swap" rel="stylesheet">
+<div>
+<nav class="nav-bar" id="nav-bar">
+    <a style="color:white" id="Education" class="nav-link" href="#Education">Education</a>
+    <a style="color:white" id="Notable-skills" class="nav-link" href="#Notable-skills">Notable Skills</a>
+  <a style="color:white" id= "Portfolio" class="nav-link" href="#Portfolio">Portfolio</a>
+  <a style="color:white" id= "Contact-Information" class="nav-link" href="#Contact-Information" target="_blank" rel="noopener noreferrer">Contact-Information</a>
+  </div> 
+  
+<div class="header-box">
+  <img class="img" style="float:left" src="https://scontent.fdet1-1.fna.fbcdn.net/v/t1.6435-9/31525599_10155971666581634_4923964766872928256_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=174925&_nc_ohc=vsVP6tL2WEgAX8TCmEn&_nc_ht=scontent.fdet1-1.fna&oh=00_AT81liqooHLd-TjIZBBB9l1acSmNUpQ0_deGOcP7WcCgcA&oe=61E14337" alt="picture of April Centeno">
+  <h1>A P R I L C E N T E N O</h1>
+<h2>Professional Analyst</h2>
+  <p class="text-align-right">"There is always room for improvement; I will find it."</p>
+</div>
+  <div class="inline-box">
+  <div class="box1"> 
+    <h3 id="Notable-Skills"><ul><b>Notable Skills</b></ul></h3>
+    <p>
+    <label for="HTML5">
+<ul><a style="color:white" id="HTML5" name="HTML5" target="_blank" rel="noopener noreferrer"href="https://www.freecodecamp.org/certification/bogdans3/responsive-web-design" alt="HTML 5 certification">HTML5</a></ul></label>
+      <label for="SQL">
+<ul><a style="color:white" id="HTML5" name="HTML5" target="_blank" rel="noopener noreferrer"href="https://drive.google.com/file/d/1PixlLU9vSRViLIoFAcV-lRC5pM7EBHny/view?usp=sharing" alt="SQL certification">SQL</a></ul></label>
+    <label for="series6">
+<ul><a style="color:white" id="series6" name="series6" target="_blank" rel="noopener noreferrer"href="https://brokercheck.finra.org/individual/summary/6831592" alt="Series 6 License">Series 6 License</a></ul></label>
+    <ul>LOMA Certifications:</ul>
+      <label for="FSRI">
+<ul><a style="color:white" id="FSRI" name="FSRI" target="_blank" rel="noopener noreferrer"href="https://drive.google.com/file/d/1IR7iqHVJgi25t0ChMKx_l_2_51JtRo9Q/view?usp=sharing" alt="FSRI-certification" alt="FSRI-Certification">FSRI</a></ul></label>
+    <ul><a style="color:white" id="FLMI" name="FLMI" target="_blank" rel="noopener noreferrer"href="https://drive.google.com/file/d/1Iy3V3eLqoqN69m6OBM6jhgqozkJ3Vf49/view?usp=sharing" alt="FLMI-certificate">FLMI</a></ul></label>
+    <ul><a style="color:white" id="ALMI" name="ALMI" target="_blank" rel="noopener noreferrer"href="https://drive.google.com/file/d/1ydbzfxUlnJrkaUgej2Cg7oOx_dUI25_u/view?usp=sharing" alt="ALMI-certificate">ALMI</a></ul></label>
+  <ul><a style="color:white" id="ACS" name="ACS" target="_blank" rel="noopener noreferrer"href="https://drive.google.com/file/d/1jDu9sbnRr-_MxD-nD0NSqmayFVpTT68f/view?usp=sharing" alt="ACS-certificate">ACS</a></ul></label>
+    <ul>Microsoft Office: Excel, Word, Power Point, etc. </ul>
+    <label for="series6">
+<ul><a style="color:white" id="Adobe-Photoshop" name="Adobe-Photoshop" target="_blank" rel="noopener noreferrer"href="https://drive.google.com/file/d/0B_qfFv2uDIJJMzdMVGM5TlpoWGc/view?usp=sharing&resourcekey=0-qp7kH3oHlP6byXsDt_r5GQ" alt="Adobe Photoshop example">Adobe Photoshop</a></ul></label>
+    <ul>Serve Safe Certification (2009-2014)</ul> 
+      <label for="Allergen-Certification">
+<ul><a style="color:white" id="Allergen-Certification" name="Allergen-Certification" target="_blank" rel="noopener noreferrer"href="https://www.servsafe.com/access/SS/Certifications/CertSearch?IsSearch=true&IssuedLastName=bogdanski&CertificateId=&ProgramCode=SSALRGNS&IssuedFirstName=april&StateProvince=MI" alt="Allergen Certification">Allergen Certification</a></ul></label>
+<ul><a style="color:white" id="Cake-Decorating" name="Cake-Decorating" target="_blank" rel="noopener noreferrer"href="https://drive.google.com/file/d/0B_qfFv2uDIJJOVRydkdLcHF2Qnc/view?usp=sharing&resourcekey=0-uVGe49wjaI7_72B7NYtvpQ" alt="Picutre of April making a rose featured in news article">Cake Decorating</a></ul></label>
+<ul><a style="color:white" id="Project-Planning" name="Project-Planning" target="_blank" rel="noopener noreferrer"href="" alt="Example of project planning">Project Planning</a></ul></label>
+    </p>
+  </div>
+  <div class="box2">
+    <h3 id="Education"><ul>Education</ul></h3>
+    <p><u>High School:</u></p>
+    <p>Chelsea High School; Diploma</p>
+    <div></div>
+    <p><u>University:</u></p>
+    <p>Michigan State University; Bachelors Human Biology<p>
+    </div>
+    <div class="box3">
+      <h3 id="Portfolio">Portfolio</H3>
+      <p>Creation of Documents</p>
+      <label for="Brochures">
+       <ul><a style="color:white" id="Brochures" name="Brochures" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/0B_qfFv2uDIJJdVF6c3I3TnZ6OFk/view?usp=sharing&resourcekey=0-9mkCsdt3_J8nml7ZjGEA9w" alt="link to brochure example">Brochures</a></ul></label>
+      <label for="customer-guides">
+<ul><a style="color:white" id="customer-guides" name="customer-guides" target="_blank" rel="noopener noreferrer"href="https://docs.google.com/spreadsheets/d/0B_qfFv2uDIJJdnExUkVJa3p2bEk/edit?usp=sharing&ouid=100759366474921509491&resourcekey=0-LlxnisAAhtEFnXIwHiGrcg&rtpof=true&sd=true" alt="example of customer help guide">Customer Guides</a></ul></label>
+     
+ <br></br>     
+  <p>Management/Training</p>
+      <label for="Training-Proceadures">
+  <ul><a style="color:white" id="Training-Proceadures" name="Training-Proceadures" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/0B_qfFv2uDIJJc1d0SXVwVmt4RTA/edit?usp=sharing&ouid=100759366474921509491&resourcekey=0-WsPrMFG7G8WPcqkjZdQO_Q&rtpof=true&sd=true">Training Proceadures</a></ul></label>
+   <label for="Presentations">
+   <ul><a style="color:white" id="Presentations" name="Presentations" target="_blank" rel="noopener noreferrer"href="https://docs.google.com/presentation/d/1mjWtkYgfWO3P5gv9O6M1ekPoMELdByzY/edit#slide=id.p2">Presentations</a></ul></label>
+      
+<br></br>   
+<p>Data Manipulation</p>
+  <label for="Exporting-POS-Data">
+  <ul><a style="color:white" id="Exporting-POS-Data" name="Exporting-POS-Data" target="_blank" rel="noopener noreferrer"href="https://docs.google.com/spreadsheets/d/0B_qfFv2uDIJJYVdianktYUtKXzA/edit?usp=sharing&ouid=100759366474921509491&resourcekey=0-0bPcPmdtFgGooE3OAHRCUA&rtpof=true&sd=true" alt="data exported to make reports">Exporting Data to Excel</a></ul></label>
+    
+<br></br>
+ <p>Human Resources</p>
+  <label for="new-hire-application-creation">
+ <ul><a style="color:white" id="new-hire-application-creation" name="new-hire-application-creation" target="_blank" rel="noopener noreferrer"href="https://drive.google.com/file/d/0B_qfFv2uDIJJaW1UWDlDcjJWNmc/view?usp=sharing&resourcekey=0--7oc5qP-9X1Wdy0TDA0K-w" alt="Employee Application Example">Employement Applications</a></ul></label>
+
+  <label for="Employee-Evaluations">
+   <ul><a style="color:white" id="Employee-Evaluations" name="Employee-Evaluations" target="_blank" rel="noopener noreferrer"href="https://drive.google.com/file/d/0B_qfFv2uDIJJaW1UWDlDcjJWNmc/view?usp=sharing&resourcekey=0--7oc5qP-9X1Wdy0TDA0K-w" alt="Employee Evaluations Example">Employee Evaluations</a></ul></label>
+ 
+  <br></br>
+<p>Quality Assurance</p>
+
+<ul><a style="color:white" id="Proper-measurments-worksheet" name="Proper-measurments-worksheet" target="_blank" rel="noopener noreferrer"href="https://docs.google.com/spreadsheets/d/0B_qfFv2uDIJJdnExUkVJa3p2bEk/edit?usp=sharing&ouid=100759366474921509491&resourcekey=0-LlxnisAAhtEFnXIwHiGrcg&rtpof=true&sd=true" alt="Proper measurments worksheet">Measurement Guidelines</a></ul></label>
+
+<ul><a style="color:white" id="cake-decorator-production-worksheet" name="cake-decorator-production-worksheet" target="_blank" rel="noopener noreferrer"href="https://docs.google.com/spreadsheets/d/0B_qfFv2uDIJJRXNUTF9rM3F3QlU/edit?usp=sharing&ouid=100759366474921509491&resourcekey=0-YOyXXI943VzXrDxr_xkoBg&rtpof=true&sd=true" alt="Cake decorator production worksheet">Production Analytics Worksheets</a></ul></label>
+    </div>
+  </div>
+  
+ <div class="box1">
+   <h3 id="Contact-Information"><ul><b>Contact Information</b></ul></h3>
+   <p><ul>E-mail: AprilCenteno26@gmail.com</ul>
+   <ul>Phone: (734) 474-4959</ul>
+</p>
+   </div>
